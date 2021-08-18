@@ -1,6 +1,6 @@
-#Projeto Site DevProCanidia
+# Projeto Site DevProCanidia
 
-##Introdução
+## Introdução
 
 
 * Nesse projeto, foi desenvolvido um site responsivo usando display inline block e float.
@@ -17,4 +17,4 @@
 
 
 
-# projeto01
+
