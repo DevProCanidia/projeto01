@@ -94,6 +94,9 @@ html,body{
 	font-size: 17px;
 	margin: 20px 0;
 }
+
+.input-container input[type=tel],
+.input-container input[type=email],
 .input-container input[type=text]{
 	margin-top: 8px;
 	width: 344px;
@@ -101,19 +104,7 @@ html,body{
 	padding: 8px 10px 8px 10px;
 	border: 1px solid #ccc;
 }
-.input-container input[type=email]{
-	margin-top: 8px;
-	width: 344px;
-	height: 55px;
-	border: 1px solid #ccc;
-}
-.input-container input[type=tel]{
-	margin-top: 8px;
-	width: 344px;
-	height: 55px;
-	border: 1px solid #ccc;
-	padding-left: 20px;
-}
+
 .form .input-submit-container{
 	text-align: center;
 }
@@ -171,8 +162,7 @@ html,body{
 	width: 100%;
 	max-width: 768px;
 	margin: 20px 0;
-	display: inline-block;
-	/*tamanho da linha bloqueada*/
+	display: inline-block;	/*tamanho da linha bloqueada*/
 	text-align: justify;
 
 }
@@ -186,8 +176,7 @@ html,body{
 	height: 50px;
 	cursor: pointer;
 	background-image: url('../images/arrow.png');
-	background-size: 100% 100%;
-	/*uso devido a imagem ser menor que origem 67x67*/
+	background-size: 100% 100%;	/*uso devido a imagem ser menor que origem 67x67*/
 }
 .arrow:hover{
 	width: 80px;
@@ -265,10 +254,9 @@ footer .reg ul li{
 	}
 
 	.container-list{
-		padding: 30px px;
+		padding: 30px;
 		width: 40%;
 		margin-top: 30px;
-		float: left;
 		display: inline-block;
 		max-width: 600px;
 		height: auto;
@@ -289,19 +277,6 @@ footer .reg ul li{
 		height: 55px;
 		
 	}
-
-	.input-container input[type=email]{
-		margin-top: 8px;
-		width: 100%;
-		height: 55px;
-		
-	}
-	.input-container input[type=tel]{
-		margin-top: 8px;
-		width: 100%;
-		height: 55px;
-	}
-
 	.form input[type=submit]{
 		max-width: 280px;
 		height: 56px;
@@ -342,5 +317,6 @@ footer .reg ul li{
 		padding: 10px 2%;
 		height: auto;
 		text-align: center;
+	}
 }
 	
