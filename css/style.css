@@ -270,7 +270,8 @@ footer .reg ul li{
 		float: right;
 		top: -55px;
 	}
-
+	.input-container input[type=tel],
+	.input-container input[type=email],
 	.input-container input[type=text]{
 		margin-top: 8px;
 		width: 100%;
